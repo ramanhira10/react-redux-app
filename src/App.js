@@ -3,12 +3,11 @@ import './App.css';
 
 import {connect} from 'react-redux';
 
-import store from './store/index';
 import Update_Person from './store/actions/PersonActions';
 import Update_Game from './store/actions/GameActions';
 import Fetch_User from './store/actions/UserActions';
 
-function App(props) {
+const App = props => {
   
   const {
     person,
